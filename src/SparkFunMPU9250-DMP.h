@@ -33,6 +33,8 @@ extern "C" {
 #include "util/inv_mpu_dmp_motion_driver.h"
 }
 
+#include "util/atan_approx.h"
+
 typedef int inv_error_t;
 #define INV_SUCCESS 0
 #define INV_ERROR 0x20
@@ -358,6 +360,9 @@ public:
 	float calcMag(int axis);
 	// calcQuat -- Convert Q30-format quaternion to a vector between +/- 1
 	float calcQuat(long axis);
+	
+	// Q_rsqrt -- an inverse square root algorithm straight from Quake III
+	float Q_rsqrt(float number);
 	
 	// computeEulerAngles -- Compute euler angles based on most recently read qw, qx, qy, and qz
 	// Input: boolean indicating whether angle results are presented in degrees or radians

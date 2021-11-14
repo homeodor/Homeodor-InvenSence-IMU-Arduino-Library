@@ -5,7 +5,7 @@ SparkFun License Information
 
 The MIT License (MIT)
 
-Copyright (c) 2016 SparkFun Electronics, Inc.
+Copyright (c) 2016 SparkFun Electronics, Inc. and (c) 2021 Alexander “Homeodor” Golovanov
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

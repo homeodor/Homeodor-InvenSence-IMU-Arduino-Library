@@ -1,4 +1,4 @@
-Homeodor IMU Digital Motion Processor (DMP) Arduino Library
+Homeodor InvenSence IMU Arduino Library
 ========================================
 
 This is a fork of [*Sparkfun MPU-9250 library*](https://github.com/sparkfun/SparkFun_MPU-9250-DMP_Arduino_Library).

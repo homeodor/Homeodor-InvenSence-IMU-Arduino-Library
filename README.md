@@ -1,5 +1,19 @@
-SparkFun MPU-9250 Digital Motion Processor (DMP) Arduino Library
+Homeodor IMU Digital Motion Processor (DMP) Arduino Library
 ========================================
+
+This is a fork of [*Sparkfun MPU-9250 library*](https://github.com/sparkfun/SparkFun_MPU-9250-DMP_Arduino_Library).
+
+It aims to
+* Correct Euler angles, as per [*This issue*]https://github.com/sparkfun/SparkFun_MPU-9250-DMP_Arduino_Library/issues/5
+* Use faster math with atan_approximation and the [*fast inverse square root*]https://en.wikipedia.org/wiki/Fast_inverse_square_root algorithm (you always wanted a piece of Quake III code in your Arduino sketch, right?
+* Support MPU-6050 and the newest ICM-20689 - TBD
+
+Currently a WiP, expect bugs.
+
+Original description follows.
+
+SparkFun MPU-9250 Digital Motion Processor (DMP) Arduino Library
+-------------------
 
 ![SparkFun MPU-9250](https://cdn.sparkfun.com/assets/parts/1/1/3/0/6/13762-SparkFun_IMU_Breakout_-_MPU-9250-00.jpg)
 

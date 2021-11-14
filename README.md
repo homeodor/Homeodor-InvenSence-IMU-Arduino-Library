@@ -1,11 +1,11 @@
 Homeodor InvenSence IMU Arduino Library
 ========================================
 
-This is a fork of [*Sparkfun MPU-9250 library*](https://github.com/sparkfun/SparkFun_MPU-9250-DMP_Arduino_Library).
+This is a fork of [Sparkfun MPU-9250 library](https://github.com/sparkfun/SparkFun_MPU-9250-DMP_Arduino_Library). It was designed to be more flexible and fast than the original. We use it within [MIDI Dobrynya controllers](https://www.mididobrynya.com/).
 
 It aims to
-* Correct Euler angles, as per [*This issue*]https://github.com/sparkfun/SparkFun_MPU-9250-DMP_Arduino_Library/issues/5
-* Use faster math with atan_approximation and the [*fast inverse square root*]https://en.wikipedia.org/wiki/Fast_inverse_square_root algorithm (you always wanted a piece of Quake III code in your Arduino sketch, right?
+* Correct Euler angles, as per [This issue](https://github.com/sparkfun/SparkFun_MPU-9250-DMP_Arduino_Library/issues/5)
+* Use faster math with atan_approximation and the [fast inverse square root](https://en.wikipedia.org/wiki/Fast_inverse_square_root) algorithm (you always wanted a piece of Quake III code in your Arduino sketch, right?
 * Support MPU-6050 and the newest ICM-20689 - TBD
 
 Currently a WiP, expect bugs.
